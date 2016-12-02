@@ -1,0 +1,519 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BB85AB31-B87D-4E1B-B230-B1434CCD035A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PIM_Windows_</RootNamespace>
+    <AssemblyName>PIM%28Windows%29</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BL\AddEmployeeHelper.cs" />
+    <Compile Include="BL\Employee.cs" />
+    <Compile Include="BL\EmployeeFacade.cs" />
+    <Compile Include="BL\MyProfileHelper.cs" />
+    <Compile Include="BL\SysAdminHelper.cs" />
+    <Compile Include="DL\DataAccess.cs" />
+    <Compile Include="PIMDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PIMDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PIMDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PIMDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PIMDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PIMDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PIMDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PIMDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PIMDataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PIMDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PIMDataSet13.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PIMDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PIMDataSet14.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PIMDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PIMDataSet15.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PIMDataSet15.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PIMDataSet16.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PIMDataSet16.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PIMDataSet17.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PIMDataSet17.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PIMDataSet18.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PIMDataSet18.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PIMDataSet19.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PIMDataSet19.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PIMDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PIMDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PIMDataSet20.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PIMDataSet20.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PIMDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PIMDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PIMDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PIMDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PIMDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PIMDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PIMDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PIMDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PIMDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PIMDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PIMDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PIMDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PIMDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PIMDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="UI\AddEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\AddEmployee.Designer.cs">
+      <DependentUpon>AddEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Configuration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Configuration.Designer.cs">
+      <DependentUpon>Configuration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\EmployeeList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\EmployeeList.Designer.cs">
+      <DependentUpon>EmployeeList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\MyProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\MyProfile.Designer.cs">
+      <DependentUpon>MyProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\MyProfileOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\MyProfileOptions.Designer.cs">
+      <DependentUpon>MyProfileOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="BL\ConfigurationHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\Reports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Reports.Designer.cs">
+      <DependentUpon>Reports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\SysAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\SysAdmin.Designer.cs">
+      <DependentUpon>SysAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\SysAdminOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\SysAdminOptions.Designer.cs">
+      <DependentUpon>SysAdminOptions.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="UI\AddEmployee.resx">
+      <DependentUpon>AddEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Configuration.resx">
+      <DependentUpon>Configuration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\EmployeeList.resx">
+      <DependentUpon>EmployeeList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\MyProfile.resx">
+      <DependentUpon>MyProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\MyProfileOptions.resx">
+      <DependentUpon>MyProfileOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UI\Reports.resx">
+      <DependentUpon>Reports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\SysAdmin.resx">
+      <DependentUpon>SysAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\SysAdminOptions.resx">
+      <DependentUpon>SysAdminOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="PIMDataSet.xsc">
+      <DependentUpon>PIMDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="PIMDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PIMDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PIMDataSet.xss">
+      <DependentUpon>PIMDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="PIMDataSet1.xsc">
+      <DependentUpon>PIMDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="PIMDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PIMDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PIMDataSet1.xss">
+      <DependentUpon>PIMDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="PIMDataSet10.xsc">
+      <DependentUpon>PIMDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="PIMDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PIMDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PIMDataSet10.xss">
+      <DependentUpon>PIMDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="PIMDataSet11.xsc">
+      <DependentUpon>PIMDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="PIMDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PIMDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PIMDataSet11.xss">
+      <DependentUpon>PIMDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="PIMDataSet12.xsc">
+      <DependentUpon>PIMDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="PIMDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PIMDataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PIMDataSet12.xss">
+      <DependentUpon>PIMDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="PIMDataSet13.xsc">
+      <DependentUpon>PIMDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="PIMDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PIMDataSet13.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PIMDataSet13.xss">
+      <DependentUpon>PIMDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="PIMDataSet14.xsc">
+      <DependentUpon>PIMDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="PIMDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PIMDataSet14.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PIMDataSet14.xss">
+      <DependentUpon>PIMDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="PIMDataSet15.xsc">
+      <DependentUpon>PIMDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="PIMDataSet15.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PIMDataSet15.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PIMDataSet15.xss">
+      <DependentUpon>PIMDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="PIMDataSet16.xsc">
+      <DependentUpon>PIMDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="PIMDataSet16.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PIMDataSet16.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PIMDataSet16.xss">
+      <DependentUpon>PIMDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="PIMDataSet17.xsc">
+      <DependentUpon>PIMDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="PIMDataSet17.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PIMDataSet17.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PIMDataSet17.xss">
+      <DependentUpon>PIMDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="PIMDataSet18.xsc">
+      <DependentUpon>PIMDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="PIMDataSet18.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PIMDataSet18.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PIMDataSet18.xss">
+      <DependentUpon>PIMDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="PIMDataSet19.xsc">
+      <DependentUpon>PIMDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="PIMDataSet19.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PIMDataSet19.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PIMDataSet19.xss">
+      <DependentUpon>PIMDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="PIMDataSet2.xsc">
+      <DependentUpon>PIMDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="PIMDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PIMDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PIMDataSet2.xss">
+      <DependentUpon>PIMDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="PIMDataSet20.xsc">
+      <DependentUpon>PIMDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="PIMDataSet20.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PIMDataSet20.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PIMDataSet20.xss">
+      <DependentUpon>PIMDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="PIMDataSet3.xsc">
+      <DependentUpon>PIMDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="PIMDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PIMDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PIMDataSet3.xss">
+      <DependentUpon>PIMDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="PIMDataSet4.xsc">
+      <DependentUpon>PIMDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="PIMDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PIMDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PIMDataSet4.xss">
+      <DependentUpon>PIMDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="PIMDataSet5.xsc">
+      <DependentUpon>PIMDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="PIMDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PIMDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PIMDataSet5.xss">
+      <DependentUpon>PIMDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="PIMDataSet6.xsc">
+      <DependentUpon>PIMDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="PIMDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PIMDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PIMDataSet6.xss">
+      <DependentUpon>PIMDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="PIMDataSet7.xsc">
+      <DependentUpon>PIMDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="PIMDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PIMDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PIMDataSet7.xss">
+      <DependentUpon>PIMDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="PIMDataSet8.xsc">
+      <DependentUpon>PIMDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="PIMDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PIMDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PIMDataSet8.xss">
+      <DependentUpon>PIMDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="PIMDataSet9.xsc">
+      <DependentUpon>PIMDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="PIMDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PIMDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PIMDataSet9.xss">
+      <DependentUpon>PIMDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

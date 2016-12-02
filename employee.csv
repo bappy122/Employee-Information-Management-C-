@@ -1,0 +1,3 @@
+employeeID,firstName,lastName,employeeDOB,gender ,joiningDate,martialStatus,nationality,bloodGroup,emailAddress,jobTitle,jobType
+2016 - 10,fabiha,marzan,4/6/1990,female,4/6/2015,single,Bangladeshi,A+,fabiha@gmail.com,manager,Part-Time
+2016 - 11,pronab,halder,4/6/1990,male,4/6/2012,married,Indian,B+,pronab@gmail.com,user,Full-Time

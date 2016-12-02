@@ -1,0 +1,70 @@
+G:\Visual Studio Projects\PIM(Windows)\PIM(Windows)\bin\Debug\PIM(Windows).exe.config
+G:\Visual Studio Projects\PIM(Windows)\PIM(Windows)\obj\Debug\PIM(Windows).csprojResolveAssemblyReference.cache
+G:\Visual Studio Projects\PIM(Windows)\PIM(Windows)\obj\Debug\PIM(Windows).csproj.GenerateResource.Cache
+G:\Visual Studio Projects\PIM(Windows)\PIM(Windows)\bin\Debug\PIM(Windows).exe
+G:\Visual Studio Projects\PIM(Windows)\PIM(Windows)\bin\Debug\PIM(Windows).pdb
+G:\Visual Studio Projects\PIM(Windows)\PIM(Windows)\obj\Debug\PIM_Windows_.Properties.Resources.resources
+G:\Visual Studio Projects\PIM(Windows)\PIM(Windows)\obj\Debug\PIM(Windows).exe
+G:\Visual Studio Projects\PIM(Windows)\PIM(Windows)\obj\Debug\PIM(Windows).pdb
+G:\Visual Studio Projects\PIM(Windows)\PIM(Windows)\obj\Debug\PIM_Windows_.Home.resources
+G:\Visual Studio Projects\PIM(Windows)\PIM(Windows)\obj\Debug\PIM_Windows_.Configuration.resources
+G:\Visual Studio Projects\PIM(Windows)\PIM(Windows)\obj\Debug\PIM_Windows_.MyProfile.resources
+G:\Visual Studio Projects\PIM(Windows)\PIM(Windows)\obj\Debug\PIM_Windows_.MyProfileOptions.resources
+G:\Visual Studio Projects\PIM(Windows)\PIM(Windows)\obj\Debug\PIM_Windows_.AddEmployee.resources
+G:\Visual Studio Projects\PIM(Windows)\PIM(Windows)\obj\Debug\PIM_Windows_.EmployeeList.resources
+G:\Visual Studio Projects\PIM(Windows)\PIM(Windows)\obj\Debug\PIM_Windows_.Reports.resources
+G:\Visual Studio Projects\PIM(Windows)\PIM(Windows)\obj\Debug\PIM_Windows_.BL.Login.resources
+G:\PIM Versions\4-10-2016(12.22am)\PIM(Windows)\PIM(Windows)\bin\Debug\PIM(Windows).exe.config
+G:\PIM Versions\4-10-2016(12.22am)\PIM(Windows)\PIM(Windows)\obj\Debug\PIM(Windows).exe
+G:\PIM Versions\4-10-2016(12.22am)\PIM(Windows)\PIM(Windows)\obj\Debug\PIM(Windows).pdb
+G:\PIM Versions\4-10-2016(12.22am)\PIM(Windows)\PIM(Windows)\bin\Debug\PIM(Windows).exe
+G:\PIM Versions\4-10-2016(12.22am)\PIM(Windows)\PIM(Windows)\bin\Debug\PIM(Windows).pdb
+G:\PIM Versions\4-10-2016(12.22am)\PIM(Windows)\PIM(Windows)\obj\Debug\PIM(Windows).csprojResolveAssemblyReference.cache
+G:\PIM Versions\4-10-2016(12.22am)\PIM(Windows)\PIM(Windows)\obj\Debug\PIM_Windows_.AddEmployee.resources
+G:\PIM Versions\4-10-2016(12.22am)\PIM(Windows)\PIM(Windows)\obj\Debug\PIM_Windows_.IL.Configuration.resources
+G:\PIM Versions\4-10-2016(12.22am)\PIM(Windows)\PIM(Windows)\obj\Debug\PIM_Windows_.EmployeeList.resources
+G:\PIM Versions\4-10-2016(12.22am)\PIM(Windows)\PIM(Windows)\obj\Debug\PIM_Windows_.IL.Login.resources
+G:\PIM Versions\4-10-2016(12.22am)\PIM(Windows)\PIM(Windows)\obj\Debug\PIM_Windows_.IL.Home.resources
+G:\PIM Versions\4-10-2016(12.22am)\PIM(Windows)\PIM(Windows)\obj\Debug\PIM_Windows_.IL.MyProfile.resources
+G:\PIM Versions\4-10-2016(12.22am)\PIM(Windows)\PIM(Windows)\obj\Debug\PIM_Windows_.MyProfileOptions.resources
+G:\PIM Versions\4-10-2016(12.22am)\PIM(Windows)\PIM(Windows)\obj\Debug\PIM_Windows_.Properties.Resources.resources
+G:\PIM Versions\4-10-2016(12.22am)\PIM(Windows)\PIM(Windows)\obj\Debug\PIM_Windows_.Reports.resources
+G:\PIM Versions\4-10-2016(12.22am)\PIM(Windows)\PIM(Windows)\obj\Debug\PIM_Windows_.UI.SysAdmin.resources
+G:\PIM Versions\4-10-2016(12.22am)\PIM(Windows)\PIM(Windows)\obj\Debug\PIM_Windows_.UI.SysAdminOptions.resources
+G:\PIM Versions\4-10-2016(12.22am)\PIM(Windows)\PIM(Windows)\obj\Debug\PIM(Windows).csproj.GenerateResource.Cache
+C:\Users\BAPPY\Desktop\PIM(Windows)\PIM(Windows)\bin\Debug\PIM(Windows).exe.config
+C:\Users\BAPPY\Desktop\PIM(Windows)\PIM(Windows)\bin\Debug\PIM(Windows).exe
+C:\Users\BAPPY\Desktop\PIM(Windows)\PIM(Windows)\bin\Debug\PIM(Windows).pdb
+C:\Users\BAPPY\Desktop\PIM(Windows)\PIM(Windows)\obj\Debug\PIM_Windows_.AddEmployee.resources
+C:\Users\BAPPY\Desktop\PIM(Windows)\PIM(Windows)\obj\Debug\PIM_Windows_.IL.Configuration.resources
+C:\Users\BAPPY\Desktop\PIM(Windows)\PIM(Windows)\obj\Debug\PIM_Windows_.EmployeeList.resources
+C:\Users\BAPPY\Desktop\PIM(Windows)\PIM(Windows)\obj\Debug\PIM_Windows_.IL.Login.resources
+C:\Users\BAPPY\Desktop\PIM(Windows)\PIM(Windows)\obj\Debug\PIM_Windows_.IL.Home.resources
+C:\Users\BAPPY\Desktop\PIM(Windows)\PIM(Windows)\obj\Debug\PIM_Windows_.IL.MyProfile.resources
+C:\Users\BAPPY\Desktop\PIM(Windows)\PIM(Windows)\obj\Debug\PIM_Windows_.Properties.Resources.resources
+C:\Users\BAPPY\Desktop\PIM(Windows)\PIM(Windows)\obj\Debug\PIM_Windows_.Reports.resources
+C:\Users\BAPPY\Desktop\PIM(Windows)\PIM(Windows)\obj\Debug\PIM_Windows_.UI.SysAdmin.resources
+C:\Users\BAPPY\Desktop\PIM(Windows)\PIM(Windows)\obj\Debug\PIM_Windows_.UI.SysAdminOptions.resources
+C:\Users\BAPPY\Desktop\PIM(Windows)\PIM(Windows)\obj\Debug\PIM(Windows).csproj.GenerateResource.Cache
+C:\Users\BAPPY\Desktop\PIM(Windows)\PIM(Windows)\obj\Debug\PIM(Windows).exe
+C:\Users\BAPPY\Desktop\PIM(Windows)\PIM(Windows)\obj\Debug\PIM(Windows).pdb
+C:\Users\BAPPY\Desktop\PIM(Windows)\PIM(Windows)\obj\Debug\PIM(Windows).csprojResolveAssemblyReference.cache
+C:\Users\BAPPY\Desktop\PIM(Windows)\PIM(Windows)\obj\Debug\PIM_Windows_.UI.MyProfileOptions.resources
+G:\Git\C sharp\PIM(Windows)\bin\Debug\PIM(Windows).exe.config
+G:\Git\C sharp\PIM(Windows)\obj\Debug\PIM(Windows).exe
+G:\Git\C sharp\PIM(Windows)\obj\Debug\PIM(Windows).pdb
+G:\Git\C sharp\PIM(Windows)\bin\Debug\PIM(Windows).exe
+G:\Git\C sharp\PIM(Windows)\bin\Debug\PIM(Windows).pdb
+G:\Git\C sharp\PIM(Windows)\obj\Debug\PIM(Windows).csprojResolveAssemblyReference.cache
+G:\Git\C sharp\PIM(Windows)\obj\Debug\PIM_Windows_.AddEmployee.resources
+G:\Git\C sharp\PIM(Windows)\obj\Debug\PIM_Windows_.IL.Configuration.resources
+G:\Git\C sharp\PIM(Windows)\obj\Debug\PIM_Windows_.EmployeeList.resources
+G:\Git\C sharp\PIM(Windows)\obj\Debug\PIM_Windows_.IL.Login.resources
+G:\Git\C sharp\PIM(Windows)\obj\Debug\PIM_Windows_.IL.Home.resources
+G:\Git\C sharp\PIM(Windows)\obj\Debug\PIM_Windows_.IL.MyProfile.resources
+G:\Git\C sharp\PIM(Windows)\obj\Debug\PIM_Windows_.UI.MyProfileOptions.resources
+G:\Git\C sharp\PIM(Windows)\obj\Debug\PIM_Windows_.Properties.Resources.resources
+G:\Git\C sharp\PIM(Windows)\obj\Debug\PIM_Windows_.Reports.resources
+G:\Git\C sharp\PIM(Windows)\obj\Debug\PIM_Windows_.UI.SysAdmin.resources
+G:\Git\C sharp\PIM(Windows)\obj\Debug\PIM_Windows_.UI.SysAdminOptions.resources
+G:\Git\C sharp\PIM(Windows)\obj\Debug\PIM(Windows).csproj.GenerateResource.Cache
